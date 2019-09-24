@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include jiqm *.css
+recursive-include jiqm *.csv
+recursive-include jiqm *.html
+recursive-include jiqm *.ico
+recursive-include jiqm *.js
+recursive-include jiqm *.json
+recursive-include jiqm *.md
+recursive-include jiqm *.png
+recursive-include jiqm *.py
+recursive-include jiqm *.svg
+recursive-include jiqm *.txt
+recursive-exclude jiqm *.pyc
